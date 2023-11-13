@@ -1,3 +1,5 @@
+import 'package:flutter_app/app/controllers/auth_controller.dart';
+
 import '/app/controllers/home_controller.dart';
 import '/app/models/user.dart';
 import '/app/networking/dio/base_api_service.dart';
@@ -16,7 +18,8 @@ import '/app/networking/api_service.dart';
 */
 
 final Map<Type, dynamic> modelDecoders = {
-  List<User>: (data) => List.from(data).map((json) => User.fromJson(json)).toList(),
+  List<User>: (data) =>
+      List.from(data).map((json) => User.fromJson(json)).toList(),
   //
   User: (data) => User.fromJson(data),
 
@@ -40,7 +43,6 @@ final Map<Type, BaseApiService> apiDecoders = {
   // ...
 };
 
-
 /*
 |--------------------------------------------------------------------------
 | Controller Decoders
@@ -53,8 +55,7 @@ final Map<Type, BaseApiService> apiDecoders = {
 */
 final Map<Type, BaseController> controllers = {
   HomeController: HomeController(),
+  AuthController: AuthController(),
 
   // ...
-
 };
-

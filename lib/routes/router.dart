@@ -1,4 +1,8 @@
-import '/resources/pages/home_page.dart';
+import 'package:flutter_app/resources/pages/auth/auth_page.dart';
+import 'package:flutter_app/resources/pages/session.dart';
+import 'package:flutter_app/routes/guards/auth_route_guard.dart';
+
+import '../resources/pages/home/home_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 /*
@@ -13,9 +17,14 @@ import 'package:nylo_framework/nylo_framework.dart';
 */
 
 appRouter() => nyRoutes((router) {
-  router.route(HomePage.path, (context) => HomePage(), initialRoute: true);
-  // Add your routes here
+      router.route(
+        AuthPage.path,
+        (context) => AuthPage(),
+      );
 
-  // router.route(NewPage.path, (context) => NewPage(), transition: PageTransitionType.fade);
+      router.route(SessionPage.path, (context) => SessionPage(),
+          initialRoute: true);
 
-});
+      router.route(HomePage.path, (context) => HomePage(),
+          routeGuards: [AuthRouteGuard()], authPage: true);
+    });

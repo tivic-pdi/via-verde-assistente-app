@@ -1,5 +1,7 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
-import '/resources/pages/home_page.dart';
+import 'package:flutter_app/resources/pages/auth/auth_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 /*
@@ -16,11 +18,13 @@ class AuthRouteGuard extends NyRouteGuard {
 
   @override
   Future<bool> canOpen(BuildContext? context, NyArgument? data) async {
+    log(((await Auth.loggedIn())).toString());
     return (await Auth.loggedIn());
   }
 
   @override
   redirectTo(BuildContext? context, NyArgument? data) async {
-    await routeTo(HomePage.path);
+    await routeTo(AuthPage.path,
+        navigationType: NavigationType.popAndPushNamed);
   }
 }
