@@ -31,7 +31,7 @@ Some core features available
 ## Getting Started
 
 ``` bash
-git clone https://github.com/nylo-core/nylo.git
+git clone https://github.com/tivic-team/guia-digital.git
 ```
 
 ## Documentation
