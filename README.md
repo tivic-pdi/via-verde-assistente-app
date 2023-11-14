@@ -1,59 +1,15 @@
-![Nylo Banner](https://nylo.dev/images/nylo_logo_header.png)
 
-<p align="center">
-  <a href="https://github.com/nylo-core/nylo/releases"><img src="https://img.shields.io/github/v/release/nylo-core/nylo?style=plastic" alt="Latest Release Version"></a>
-  <a href="https://github.com/nylo-core/nylo/blob/master/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/nylo-core/nylo?style=plastic"></a>
-  <a href="#"><img alt="GitHub stars" src="https://img.shields.io/github/stars/nylo-core/nylo?style=plastic"></a>
+# <p align="center">Guia Digital - Acessibilidade na mobilidade urbana</p>
+
+<p align="center"> <img src="https://storage.googleapis.com/cms-storage-bucket/ec64036b4eacc9f3fd73.svg" width="150px" /> </p>
+
+<p align="center"> O <strong>NgxSolComponents</strong> é uma biblioteca feita pela TIVIC para auxiliar no desenvolvimento das aplicações front-end, use sem moderação porém com noção. 🚀</p>
+
+<p align="center"> <strong><a href="http://www.tivic.com.br" target="_blank">www.tivic.com.br</strong> </a> </p>
+
+<p align="center"> 
+  <img src="https://github.com/tivic-team/ngx-sol-components/actions/workflows/publish.yml/badge.svg" />
+  <img src="https://img.shields.io/badge/angular-v13.1.1-blue" /> 
+  <img src="https://img.shields.io/badge/typescript-v4.5.4-blue" /> 
 </p>
 
-## Nylo
-
-Nylo is a micro-framework for Flutter which is designed to help simplify developing apps. Every project provides a simple boilerplate and MVC pattern to help you build apps easier. 
-
-This project is open source and MIT-licenced, we welcome any contributions. You can join as a backer/sponsor to fund future development for this project [here](https://nylo.dev)
-
----
-
-## Features
-Some core features available
-* [Routing](https://nylo.dev/docs/5.x/router).
-* [Themes and styling](https://nylo.dev/docs/5.x/themes-and-styling).
-* [Localization](https://nylo.dev/docs/5.x/localization).
-* [CLI for generating project files](https://nylo.dev/docs/5.x/metro).
-* [Elegant API Services for Networking](https://nylo.dev/docs/5.x/networking).
-* [Creating App Icons](https://nylo.dev/docs/5.x/app-icons).
-* [Project Configuration](https://nylo.dev/docs/5.x/configuration).
-* [Streamlined Project Structure](https://nylo.dev/docs/5.x/directory-structure).
-
-## Requirements
-* Dart >= 3.1.3
-
-## Getting Started
-
-``` bash
-git clone https://github.com/tivic-team/guia-digital.git
-```
-
-## Documentation
-View our [docs](https://nylo.dev/docs) and visit [nylo.dev](https://nylo.dev)
-
-## Changelog
-Please see [CHANGELOG](https://github.com/nylo-core/framework/blob/5.x/CHANGELOG.md) for more information what has changed recently.
-
-## Social
-* [Twitter](https://twitter.com/nylo_dev)
-
-## Security
-If you discover any security related issues, please email support@nylo.dev instead of using the issue tracker.
-
-## Contributors
-* [Anthony Gordon](https://github.com/agordn52)
-* [lpdevit](https://github.com/lpdevit)
-* [Abdulrasheed1729](https://github.com/Abdulrasheed1729)
-* [Rashid-Khabeer](https://github.com/Rashid-Khabeer)
-* [youssefKadaouiAbbassi](https://github.com/youssefKadaouiAbbassi)
-* [jeremyhalin](https://github.com/jeremyhalin)
-
-## Licence
-
-The MIT License (MIT). Please view the [License](https://github.com/nylo-core/nylo/blob/master/licence) File for more information.
