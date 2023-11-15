@@ -1,6 +1,6 @@
-import 'package:flutter_app/resources/pages/auth/auth_page.dart';
-import 'package:flutter_app/resources/pages/session.dart';
-import 'package:flutter_app/routes/guards/auth_route_guard.dart';
+import 'package:guia_digital/resources/pages/auth/auth_page.dart';
+import 'package:guia_digital/resources/pages/session.dart';
+import 'package:guia_digital/routes/guards/auth_route_guard.dart';
 
 import '../resources/pages/home/home_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';

@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_app/resources/pages/auth/auth_page.dart';
+import 'package:guia_digital/resources/pages/auth/auth_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 
 /*

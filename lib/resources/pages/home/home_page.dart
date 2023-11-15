@@ -1,10 +1,7 @@
-import 'package:nylo_framework/nylo_framework.dart';
-import 'package:nylo_framework/theme/helper/ny_theme.dart';
 import 'package:flutter/material.dart';
-import '/bootstrap/extensions.dart';
-import '/resources/widgets/logo_widget.dart';
-import '/resources/widgets/safearea_widget.dart';
-import '/bootstrap/helpers.dart';
+import 'package:guia_digital/resources/pages/home/widgets/camera.widget.dart';
+import 'package:nylo_framework/nylo_framework.dart';
+
 import '/app/controllers/home_controller.dart';
 
 class HomePage extends NyPage<HomeController> {
@@ -16,16 +13,9 @@ class HomePage extends NyPage<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeAreaWidget(
-        child: Center(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text("HomePage"),
-            ],
-          ),
-        ),
+      body: Container(
+        width: double.infinity,
+        child: CameraPreviewWidget(),
       ),
     );
   }

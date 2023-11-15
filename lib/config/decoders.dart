@@ -1,7 +1,7 @@
-import 'package:flutter_app/app/controllers/auth_controller.dart';
+import '/app/models/usuario.dart';
+import 'package:guia_digital/app/controllers/auth_controller.dart';
 
 import '/app/controllers/home_controller.dart';
-import '/app/models/user.dart';
 import '/app/networking/dio/base_api_service.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 import '/app/networking/api_service.dart';
@@ -18,12 +18,10 @@ import '/app/networking/api_service.dart';
 */
 
 final Map<Type, dynamic> modelDecoders = {
-  List<User>: (data) =>
-      List.from(data).map((json) => User.fromJson(json)).toList(),
+  List<Usuario>: (data) =>
+      List.from(data).map((json) => Usuario.fromJson(json)).toList(),
   //
-  User: (data) => User.fromJson(data),
-
-  // User: (data) => User.fromJson(data),
+  Usuario: (data) => Usuario.fromJson(data),
 };
 
 /*

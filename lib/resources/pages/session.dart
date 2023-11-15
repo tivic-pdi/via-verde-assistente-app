@@ -1,4 +1,4 @@
-import 'package:flutter_app/resources/pages/home/home_page.dart';
+import 'package:guia_digital/resources/pages/home/home_page.dart';
 import 'package:nylo_framework/nylo_framework.dart';
 import 'package:flutter/material.dart';
 import '/app/controllers/home_controller.dart';
