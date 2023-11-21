@@ -1,9 +1,14 @@
 import 'dart:developer';
+import 'dart:io';
 
+import 'package:analyzer/dart/analysis/features.dart';
 import 'package:camera/camera.dart';
+import 'package:document_file_save_plus/document_file_save_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:styled_widget/styled_widget.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
+import 'package:path_provider/path_provider.dart';
 
 class CameraPreviewWidget extends StatefulWidget {
   const CameraPreviewWidget({super.key});
@@ -19,6 +24,11 @@ class _CameraPreviewWidgetState extends State<CameraPreviewWidget> {
 
   Future<void> _setupCameras() async {
     try {
+      var status = await Permission.storage.status;
+      if (!status.isGranted) {
+        await Permission.storage.request();
+      }
+
       // initialize cameras.
       cameras = await availableCameras();
       // initialize camera controllers.
@@ -45,6 +55,7 @@ class _CameraPreviewWidgetState extends State<CameraPreviewWidget> {
 
     return Stack(
       fit: StackFit.expand,
+      alignment: Alignment.bottomCenter,
       children: [
         CameraPreview(controller),
         Styled.widget(
@@ -54,12 +65,35 @@ class _CameraPreviewWidgetState extends State<CameraPreviewWidget> {
                         "sk.eyJ1IjoiY29kc2lnbmVyIiwiYSI6ImNsb3o0enFkdTBhMGkyam1zMTV3ZDh1dTEifQ.VTY609k7l7tyyyL1kZS9yA",
                     initialCameraPosition: CameraPosition(
                         zoom: 14, target: LatLng(-14.8648, -40.8369))))
-            .clipRRect(all: 5)
+            .clipRRect(all: 10)
             .padding(all: 10)
             .height(125)
             .width(double.infinity)
-            .backgroundColor(Colors.black45)
-            .positioned(bottom: 0, left: 0, right: 0)
+            .backgroundColor(Colors.black54)
+            .positioned(bottom: 0, left: 0, right: 0),
+        Styled.widget() // red circle
+            .decorated(
+                color: Colors.red,
+                border: Border.all(color: Colors.white, width: 5),
+                borderRadius: BorderRadius.circular(50))
+            .gestures(
+              onTap: () {
+                controller.startVideoRecording();
+
+                Future.delayed(Duration(seconds: 5)).then((value) async {
+                  XFile video = await controller.stopVideoRecording();
+                  File videoFile = File(video.path);
+
+                  DocumentFileSavePlus().saveFile(
+                      videoFile.readAsBytesSync(), "video.mp4", "video/mp4");
+                  log("Vídeo gravado");
+                });
+              },
+            )
+            .gestures(
+              onTap: () {},
+            )
+            .positioned(height: 80, width: 80, bottom: 140),
       ],
     );
   }

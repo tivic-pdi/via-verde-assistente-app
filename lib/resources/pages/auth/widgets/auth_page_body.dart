@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:guia_digital/resources/pages/auth/widgets/sign_in_widget.dart';
-import 'package:nylo_framework/nylo_framework.dart';
 import 'package:guia_digital/resources/pages/auth/widgets/text_field.widget.dart';
+import 'package:nylo_framework/nylo_framework.dart';
 import 'package:styled_widget/styled_widget.dart';
 
 class AuthPageBody extends StatelessWidget {
@@ -9,8 +9,9 @@ class AuthPageBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool isDarkTheme = ThemeProvider.controllerOf(context).currentThemeId ==
-        getEnv('DARK_THEME_ID');
+    final bool isDarkTheme =
+        ThemeProvider.controllerOf(context).currentThemeId ==
+            getEnv('DARK_THEME_ID');
 
     return Column(children: [
       Expanded(
