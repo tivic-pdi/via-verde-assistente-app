@@ -5,6 +5,7 @@ import 'package:analyzer/dart/analysis/features.dart';
 import 'package:camera/camera.dart';
 import 'package:document_file_save_plus/document_file_save_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:guia_digital/resources/pages/home/widgets/record_button.widget.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:styled_widget/styled_widget.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
@@ -71,29 +72,7 @@ class _CameraPreviewWidgetState extends State<CameraPreviewWidget> {
             .width(double.infinity)
             .backgroundColor(Colors.black54)
             .positioned(bottom: 0, left: 0, right: 0),
-        Styled.widget() // red circle
-            .decorated(
-                color: Colors.red,
-                border: Border.all(color: Colors.white, width: 5),
-                borderRadius: BorderRadius.circular(50))
-            .gestures(
-              onTap: () {
-                controller.startVideoRecording();
-
-                Future.delayed(Duration(seconds: 5)).then((value) async {
-                  XFile video = await controller.stopVideoRecording();
-                  File videoFile = File(video.path);
-
-                  DocumentFileSavePlus().saveFile(
-                      videoFile.readAsBytesSync(), "video.mp4", "video/mp4");
-                  log("Vídeo gravado");
-                });
-              },
-            )
-            .gestures(
-              onTap: () {},
-            )
-            .positioned(height: 80, width: 80, bottom: 140),
+        RecordButtonWidget(cameraController: controller),
       ],
     );
   }
