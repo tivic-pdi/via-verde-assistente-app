@@ -5,7 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef7071ab-8707-48fb-8f37-fce40068fb70" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/widgets/camera.widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/br/com/tivic/pdi/viaverdeassist/assistente_via_verde_app/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assistente_via_verde_app_android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assistente_via_verde_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widgets/record_button.widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/my_application.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux/my_application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/Icon-maskable-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/icons/Icon-maskable-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/Runner.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/flutter_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/resources/app_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/win32_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/windows/runner/win32_window.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/controllers/auth_controller.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/controllers/controller.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app/controllers/home_controller.dart" beforeDir="false" />
@@ -34,13 +106,13 @@
       <change beforePath="$PROJECT_DIR$/lib/config/theme.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/config/toast_notification.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/config/validation_rules.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/auth_page.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/auth_page_body.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/sign_in_widget.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/text_field.widget.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/home/home_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/resources/pages/home/widgets/camera.widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/home/widgets/camera.widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/camera.widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/pages/session.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/themes/dark_theme.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/resources/themes/light_theme.dart" beforeDir="false" />
@@ -54,6 +126,7 @@
       <change beforePath="$PROJECT_DIR$/lib/resources/widgets/toast_notification_widget.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routes/guards/auth_route_guard.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routes/router.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +160,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "feature/refact",
     "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "/home/thallys/Documents/projetos/via-verde/via-verde-assistente-app/lib/app/models",
+    "last_opened_file_path": "/home/thallys/Documents/projetos/via-verde/flutter-camera-capture",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
