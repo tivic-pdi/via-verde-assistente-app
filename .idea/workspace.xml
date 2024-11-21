@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef7071ab-8707-48fb-8f37-fce40068fb70" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/widgets/camera.widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/controllers/auth_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/controllers/controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/controllers/home_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/events/login_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/events/logout_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/models/usuario.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/networking/api_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/networking/dio/base_api_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/networking/dio/interceptors/bearer_auth_interceptor.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/networking/dio/interceptors/example_interceptor.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/providers/app_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/providers/auth_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/providers/event_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/providers/route_provider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/app.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/boot.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/extensions.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bootstrap/helpers.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/decoders.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/design.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/events.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/font.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/localization.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/providers.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/storage_keys.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/theme.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/toast_notification.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/validation_rules.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/auth_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/auth_page_body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/sign_in_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/auth/widgets/text_field.widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/home/home_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/home/widgets/camera.widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/pages/session.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/dark_theme.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/light_theme.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/styles/color_styles.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/styles/dark_theme_colors.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/styles/light_theme_colors.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/themes/text_theme/default_text_theme.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/widgets/loader_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/widgets/logo_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/widgets/safearea_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/widgets/toast_notification_widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes/guards/auth_route_guard.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routes/router.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2fC1QEblM8VtAwxCUJs6b2JKJjx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "feature/refact",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/home/thallys/Documents/projetos/via-verde/via-verde-assistente-app/lib/app/models",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/app/models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef7071ab-8707-48fb-8f37-fce40068fb70" name="Changes" comment="" />
+      <created>1713290228498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713290228498</updated>
+    </task>
+    <servers />
+  </component>
+</project>
