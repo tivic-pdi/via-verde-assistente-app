@@ -56,7 +56,7 @@ ThemeData lightTheme(ColorStyles color) {
     ),
     textTheme: lightTheme,
     colorScheme: ColorScheme.light(
-        background: color.background, primary: color.primaryAccent),
+        surface: color.background, primary: color.primaryAccent),
   );
 }
 
@@ -70,5 +70,5 @@ TextTheme _textTheme(ColorStyles colors) {
   Color primaryContent = colors.primaryContent;
   TextTheme textTheme = TextTheme().apply(displayColor: primaryContent);
   return textTheme.copyWith(
-      labelLarge: TextStyle(color: primaryContent.withOpacity(0.8)));
+      labelLarge: TextStyle(color: primaryContent.withValues(alpha: 0.8)));
 }

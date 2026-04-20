@@ -6,6 +6,8 @@ import '/app/controllers/home_controller.dart';
 class SessionPage extends NyPage<HomeController> {
   static String path = '/session';
 
+  SessionPage() : super(path);
+
   @override
   init() async {
     routeTo(HomePage.path, navigationType: NavigationType.popAndPushNamed);

@@ -1,12 +1,12 @@
 buildscript {
-    ext.kotlin_version = '1.7.10'
+    ext.kotlin_version = '2.1.0'
     repositories {
         google()
         mavenCentral()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0'
+        classpath 'com.android.tools.build:gradle:8.9.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -24,6 +24,22 @@ subprojects {
 }
 subprojects {
     project.evaluationDependsOn(':app')
+}
+
+// AGP 8+ exige `namespace` em todos os módulos Android. Alguns plugins antigos
+// (ex: document_file_save_plus) não definem isso e quebram o build.
+subprojects { subproject ->
+    def setFallbackNamespace = {
+        def androidExt = subproject.extensions.findByName("android")
+        if (androidExt != null &&
+            androidExt.hasProperty("namespace") &&
+            (androidExt.namespace == null || androidExt.namespace.toString().trim().isEmpty())) {
+            androidExt.namespace = "com.via_verde_assistente.${subproject.name.replace('-', '_')}"
+        }
+    }
+
+    subproject.plugins.withId("com.android.application") { setFallbackNamespace() }
+    subproject.plugins.withId("com.android.library") { setFallbackNamespace() }
 }
 
 tasks.register("clean", Delete) {

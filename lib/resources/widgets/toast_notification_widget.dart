@@ -22,7 +22,7 @@ class ToastNotification extends StatelessWidget {
           borderRadius: BorderRadius.circular(8),
           boxShadow: [
             BoxShadow(
-              color: context.isDarkMode ? Colors.black12 : Colors.grey.withOpacity(0.1),
+              color: context.isDarkMode ? Colors.black12 : Colors.grey.withValues(alpha: 0.1),
               spreadRadius: 3,
               blurRadius: 5,
               offset: Offset(0, 2),
@@ -62,7 +62,7 @@ class ToastNotification extends StatelessWidget {
                           style: Theme.of(context)
                               .textTheme
                               .headlineSmall!
-                              .copyWith(color: context.isDarkMode ? Colors.white.withOpacity(0.8) : "#171717".toHexColor()),
+                              .copyWith(color: context.isDarkMode ? Colors.white.withValues(alpha: 0.8) : "#171717".toHexColor()),
                         ).fontWeightBold(),
                         Flexible(
                           child: Text(

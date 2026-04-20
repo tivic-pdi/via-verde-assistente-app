@@ -6,19 +6,17 @@ import 'package:nylo_framework/nylo_framework.dart';
 class AuthPage extends NyPage<AuthController> {
   static String path = '/auth';
 
+  AuthPage() : super(path);
+
   @override
   init() async {}
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor:
-          !isThemeDark ? Colors.blueGrey.shade50 : Colors.blueGrey.shade900,
+    return const Scaffold(
+      backgroundColor: Color(0xFF065F46),
+      resizeToAvoidBottomInset: true,
       body: AuthPageBody(),
     );
   }
-
-  bool get isThemeDark =>
-      ThemeProvider.controllerOf(context).currentThemeId ==
-      getEnv('DARK_THEME_ID');
 }

@@ -51,7 +51,7 @@ ThemeData darkTheme(ColorStyles color) {
       selectedItemColor: color.bottomTabBarLabelSelected,
     ),
     textTheme: darkTheme,
-    colorScheme: ColorScheme.dark(background: color.background),
+    colorScheme: ColorScheme.dark(surface: color.background),
   );
 }
 
@@ -65,8 +65,8 @@ TextTheme _textTheme(ColorStyles colors) {
   Color primaryContent = colors.primaryContent;
   TextTheme textTheme = TextTheme().apply(displayColor: primaryContent);
   return textTheme.copyWith(
-      titleLarge: TextStyle(color: primaryContent.withOpacity(0.8)),
-      labelLarge: TextStyle(color: primaryContent.withOpacity(0.8)),
-      bodySmall: TextStyle(color: primaryContent.withOpacity(0.8)),
-      bodyMedium: TextStyle(color: primaryContent.withOpacity(0.8)));
+      titleLarge: TextStyle(color: primaryContent.withValues(alpha: 0.8)),
+      labelLarge: TextStyle(color: primaryContent.withValues(alpha: 0.8)),
+      bodySmall: TextStyle(color: primaryContent.withValues(alpha: 0.8)),
+      bodyMedium: TextStyle(color: primaryContent.withValues(alpha: 0.8)));
 }
